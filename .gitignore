@@ -1,0 +1,13 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+/node_modules/
+insight-admin.zip
+bdd.sqlite
+tab-panel.html
+table.html
+ui-elements.html
+empty.html
+form.html
+chart.html
