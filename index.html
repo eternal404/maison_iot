@@ -43,7 +43,7 @@
                     <li>
                         <a href="ui-elements.html"><i class="fa fa-desktop"></i> UI Elements</a>
                     </li>
-					<li>
+                    <li>
                         <a href="chart.html"><i class="fa fa-bar-chart-o"></i> Charts</a>
                     </li>
                     <li>
@@ -68,66 +68,67 @@
         <div id="page-wrapper">
             <div id="page-inner">
 
-                            <div class="row">
-                <div class="col-md-6 col-sm-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Température
-                        </div>
-                        <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Température
+                            </div>
+                            <div class="panel-body">
 
-                        <div class="panel panel-primary text-center no-boder bg-color-green green">
-                            <div class="panel-left pull-left green">
-                                <i class="fa fa-bar-chart-o fa-5x"></i>
+                                <div class="panel panel-primary text-center no-boder bg-color-green green">
+                                    <div class="panel-left pull-left green">
+                                        <i class="fa fa-bar-chart-o fa-5x"></i>
+
+                                    </div>
+                                    <div class="panel-right pull-right">
+                                        <strong> Salon</strong>
+                                        <h3 id="indicateur_temperature_salon">--° C</h3>
+
+                                    </div>
+                                </div>
 
                             </div>
-                            <div class="panel-right pull-right">
-								<strong> Salon</strong>
-                                <h3 id="indicateur_temperature_salon">--° C</h3>
-
-                            </div>
-                        </div>
 
                         </div>
-
                     </div>
-                </div>
 
-                <div class="col-md-6 col-sm-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Chaudière
-                        </div>
-                        <div class="panel-body">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Chaudière
+                            </div>
+                            <div class="panel-body">
 
-                        <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                          <button id="btn_chaudiere_active" type="button" class="btn btn-warning">Active</button>
-                          <button id="btn_chaudiere_auto" type="button" class="btn btn-success">Auto</button>
-                          <button id="btn_chaudiere_inactive" type="button" class="btn btn-info">Inactive</button>
-                        </div>
-
+                                <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                                    <button id="btn_chaudiere_active" type="button" class="btn btn-warning">Active</button>
+                                    <button id="btn_chaudiere_auto" type="button" class="btn btn-success">Auto</button>
+                                    <button id="btn_chaudiere_inactive" type="button" class="btn btn-info">Inactive</button>
+                                </div>
 
 
 
 
-                            <p></p><big>Température cible (°C) </big></p>
+
+                                <p><big>Température cible (°C) </big>
+                                </p>
 
 
 
-                        <div class="input-group input-group-lg" id="selecteur_temperature">
-                              <span class="input-group-btn">
+                                <div class="input-group input-group-lg" id="selecteur_temperature">
+                                    <span class="input-group-btn">
                                   <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="temperature_cible">
                                     <span class="glyphicon glyphicon-minus"></span>
-                                  </button>
-                              </span>
-                              <input type="text" id="temperature_cible" name="temperature_cible" class="form-control input-number" value="19" min="0" max="25">
-                              <span class="input-group-btn">
+                                    </button>
+                                    </span>
+                                    <input type="text" id="temperature_cible" name="temperature_cible" class="form-control input-number" value="19" min="0" max="25">
+                                    <span class="input-group-btn">
                                   <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="temperature_cible">
                                       <span class="glyphicon glyphicon-plus"></span>
-                                  </button>
-                              </span>
-                          </div>
-                </div>
+                                    </button>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -136,18 +137,18 @@
 
 
 
-				<div class="row">
-				<div class="col-md-12">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							Historique
-						</div>
-						<div class="panel-body">
-							<div id="graphique_historique_temperatures"></div>
-						</div>
-					</div>
-					</div>
-				</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Historique
+                            </div>
+                            <div class="panel-body">
+                                <div id="graphique_historique_temperatures"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -179,7 +180,7 @@
     <script src="assets/js/morris/morris.js"></script>
 
 
-	<!--<script src="assets/js/easypiechart.js"></script>
+    <!--<script src="assets/js/easypiechart.js"></script>
 	<script src="assets/js/easypiechart-data.js"></script> -->
 
 
