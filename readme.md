@@ -20,8 +20,10 @@ Dépendances:
 Librairies:
 - SQLite (extension PHP)
 - jQuery
-- Bootsrap
+- Bootstrap
+- Un thème pour BS avec quelques libs
 - php_serial pour port série, inutilisée
 
 La base de données est stockée dans *bdd.sqlite*.
 
+# maison_iot
