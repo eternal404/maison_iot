@@ -3,6 +3,8 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+.gitignore
+.DS_Store
 insight-admin.zip
 bdd.sqlite
 tab-panel.html
